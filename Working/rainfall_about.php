@@ -40,5 +40,8 @@ The length of the time step chosen within the model is related to the distance b
 
 Essentially, a model is a computer program that produces meteorological information for future times at given locations and altitudes. Within any modern model is a set of equations, known as the primitive equations, used to predict the future state of the atmosphere. These equations—along with the ideal gas law—are used to evolve the density, pressure, and potential temperature scalar fields and the velocity vector field of the atmosphere through time. Additional transport equations for pollutants and other aerosols are included in some primitive-equation mesoscale models as well. The equations used are nonlinear partial differential equations, which are impossible to solve exactly through analytical methods, with the exception of a few idealized cases. Therefore, numerical methods obtain approximate solutions. Different models use different solution methods: some global models use spectral methods for the horizontal dimensions and finite difference methods for the vertical dimension, while regional models and other global models usually use finite-difference methods in all three dimensions.<br><br>
 </p>
+ <div style="background-color: white;position: absolute;bottom: -100%;width: 99%;margin-left:0px;height: 40px;color: black;text-align: center;justify-content: center;padding-top: 5px;font-weight: bold;font-size:30px;">
+	@rainfallPrediction.com
+</div> 
 </body>
 </html>

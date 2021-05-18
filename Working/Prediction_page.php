@@ -9,10 +9,11 @@
 	<a href="../login/logout.php" style="text-decoration: none;color: red" class="log">Logout</a>
 </div>
 
-<a href="../prediction/index.html" class="link1"> Predict  </a>
-<a href="rainfall_about.php" class="link2"> About Us </a>
+<a href="../prediction/index.html" class="link1" title="This will take you to the prediction page " > Predict  </a>
+<a href="rainfall_about.php" class="link2" title="This is for the about page"> About Us </a>
+<a href="https://www.ndtv.com/topic/weather" class="link3" title=" Live Updates"> Live Update </a>
 
- <div style="background-color: white;position: absolute;bottom: 0%;width: 99%;margin-left:0px;height: 40px;color: black;text-align: center;justify-content: center;padding-top: 5px;font-weight: bold;font-size:30px;">
+ <div style="background-color: white;position: absolute;bottom:0%;width: 99%;margin-left:0px;height: 40px;color: black;text-align: center;justify-content: center;padding-top: 5px;font-weight: bold;font-size:30px;">
 	@rainfallPrediction.com
 </div> 
 </body>
@@ -37,7 +38,7 @@
 		font-weight: bold;
 	}
 	.link1{
-		margin-left: 200px;
+		margin-left: 100px;
 		position: absolute;
 		height: 60px;
 		text-align: center;
@@ -55,7 +56,25 @@
 		
 	}
 	.link2{
-		margin-left: 800px;
+		margin-left: 600px;
+		position: absolute;
+		height: 60px;
+		text-align: center;
+		justify-content: center;
+		padding-top: 50px; 
+		background: green;
+		width: 200px;
+		margin-top: 200px;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		border: 2px solid yellow;
+		box-shadow: 10px 10px blue;
+		text-decoration: none;
+		
+	}
+	.link3{
+		margin-left: 1100px;
 		position: absolute;
 		height: 60px;
 		text-align: center;

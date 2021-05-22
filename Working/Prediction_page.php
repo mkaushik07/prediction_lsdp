@@ -9,7 +9,7 @@
 	<a href="../login/logout.php" style="text-decoration: none;color: red" class="log">Logout</a>
 </div>
 
-<a href="../prediction/index.html" class="link1" title="This will take you to the prediction page " > Predict  </a>
+<a href="pred.php" class="link1" title="This will take you to the prediction page " > Predict  </a>
 <a href="rainfall_about.php" class="link2" title="This is for the about page"> About Us </a>
 <a href="https://www.ndtv.com/topic/weather" class="link3" title=" Live Updates"> Live Update </a>
 
